@@ -1,0 +1,20 @@
+#tools{
+    border-style: solid;
+    border-width: 0.1rem 0px 0px 0px; /*top, right, bot, left */
+    border-top-color: #dfdfdf;
+    position:relative;
+    top:0.2rem;
+}
+.experience-job-title{
+    padding-bottom: 0;
+}
+.experience-cards{
+    padding: 1rem 4rem;
+}
+.job-img{
+    border-radius: 2rem !important;
+}
+#experience-headings{
+    padding: 0 20rem;
+}
+

@@ -1,0 +1,1 @@
+//This will be a component with props, to easily make multiple projects with links, images and text

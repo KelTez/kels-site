@@ -1,0 +1,10 @@
+Web notes:
+
+because image is fixed, maybe have it so content in the image changes depending on where i am at scroll?
+can access local stuff pretty easily, just go to the public folders. So I'll link my writing stuff there, and resume
+
+
+WILL DO MOBILE SPECIFIC CSS ONCE SITE IS DONE!
+
+A lot of Css issues, specifically @ different zooms. For now, work at 80% zoom and get content and general style/look
+I want. Work on overhaul of css and styling to make it look nice for all setting at a later date (once i'm done the first draft of site)
