@@ -1,10 +1,9 @@
 import { React, useState, useEffect } from 'react';
 import './../../styles/Home.css'
+import home from './home-text.json';
 
 function HeadshotIntro(){
     const [scrollLimit, setScrollLimit] = useState(false);
-    const greetingText = 'Hello 😃 ';
-    const nameText = 'My name is Kelvin and I\'m\n ';
 
     const changeText = () => {
         if (window.scrollY >= 280) {
@@ -20,18 +19,20 @@ function HeadshotIntro(){
         window.addEventListener("scroll", changeText);
     });
 
+    let text = home.headshotSection;
+
     return(
         <div id='headshot'>
             <div id='headshot-intro'>
                 <h1 className='headshot-intro-text' >
-                    {greetingText}<br/>
-                    {nameText} 
+                    {text.greeting}<br/>
+                    {text.name} 
                     <div className='scrolling-text'>  
                         <span>                        
-                        an Engineer<br/>
-                        a Writer<br/>
-                        a Dancer<br/>
-                        and Much More!<br/>
+                        {text.scrollingDesc.one}<br/>
+                        {text.scrollingDesc.two}<br/>
+                        {text.scrollingDesc.three}<br/>
+                        {text.scrollingDesc.four}<br/>
                         </span>
                     </div>
                 </h1>
