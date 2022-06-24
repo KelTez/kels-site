@@ -1,0 +1,12 @@
+{
+    "api":{
+        "apiNinjas":{
+            "key":"Pf6jhkZurZrUf0JoHtDBQA==lrOwIltQl9snQ7IY",
+            "url":"https://api.api-ninjas.com/v1/",
+            "types":{
+                "facts":"facts",
+                "jokes":"jokes"
+            }
+        }   
+    }
+}
