@@ -2,8 +2,9 @@
     height:57rem;
     width: 100%;
     /*fixed is what causes that weird image follows*/
-    background: url(./../imgs/Kelvin.jpg) no-repeat center fixed;
+    background: url(./../imgs/Kelvin.jpg) no-repeat center;
     background-size: cover;
+    box-shadow: 0 0 8px 8px #94d5e7 inset;
 }
 
 .headshot-intro-text{

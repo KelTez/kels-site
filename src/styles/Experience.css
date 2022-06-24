@@ -10,11 +10,37 @@
 }
 .experience-cards{
     padding: 1rem 4rem;
+    background-color: transparent !important;
 }
 .job-img{
     border-radius: 2rem !important;
 }
 #experience-headings{
-    padding: 0 20rem;
+    padding: 1rem 20rem;
+    font-family:Arial, Helvetica, sans-serif
 }
 
+.level-up{
+    /*make img size of relative h1*/
+    height: 1em;
+    width: auto;
+    object-fit: cover;
+    margin:0 1rem 0.3rem 1rem;
+}
+/*To offset the ./#experience link*/
+#experience{   
+    scroll-margin-top: 3rem;
+    background: url(./../imgs/hotair.jpg) no-repeat center fixed;
+    background-size: cover;
+    box-shadow: 0 0 8px 8px #94d5e7 inset;
+}
+
+.list-group-flush{
+    background-color: transparent !important;
+}
+
+div.list-group-item{
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0.1rem 0;
+} 

@@ -1,8 +1,8 @@
 {
     "headshotSection":{
         "greeting":"Hello 😃 ",
-        "name":"My name is Kelvin and I'm\n",
-        "scrollingDesc":{
+        "name":"My name is Kelvin and I'm",
+        "scrollingText":{
             "one":"an Engineer",
             "two":"a Writer",
             "three":"a Dancer",
@@ -11,7 +11,7 @@
     },
     "experienceSection":{
         "headings":{
-            "title":"My Experience",
+            "title":"Work XP",
             "greeting":"Hello again! I'm Kelvin, and I'm a mechatronics grad from the university of waterloo. checkout my experience below!"
         },
         "jobDeets":{

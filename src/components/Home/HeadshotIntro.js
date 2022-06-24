@@ -29,10 +29,10 @@ function HeadshotIntro(){
                     {text.name} 
                     <div className='scrolling-text'>  
                         <span>                        
-                        {text.scrollingDesc.one}<br/>
-                        {text.scrollingDesc.two}<br/>
-                        {text.scrollingDesc.three}<br/>
-                        {text.scrollingDesc.four}<br/>
+                        {text.scrollingText.one}<br/>
+                        {text.scrollingText.two}<br/>
+                        {text.scrollingText.three}<br/>
+                        {text.scrollingText.four}<br/>
                         </span>
                     </div>
                 </h1>

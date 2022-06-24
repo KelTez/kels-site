@@ -1,5 +1,5 @@
-import { React, useState, useEffect, Link } from "react";
-import { Navbar, Container, Nav, NavDropdown, NavItem, Dropdown } from 'react-bootstrap';
+import { React, useState, useEffect } from "react";
+import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import KATLogo from './../../imgs/KATLogo.svg';
 import './../../styles/Header.css'
 
@@ -10,7 +10,7 @@ import './../../styles/Header.css'
 
 //currently clicking navdropdown does not have desired effect
 
-function Header(){
+function Header(props){
 
     const [show, setShow] = useState(false);
     //navbar to turn black on scroll
@@ -20,7 +20,7 @@ function Header(){
     const hideDropdown = () => { setShow(false); };
 
     const changeBackground = () => {
-        if (window.scrollY >= 66) {
+        if (window.scrollY >= props.scrollY) {
           setBlackNav(true);
         } else {
           setBlackNav(false);

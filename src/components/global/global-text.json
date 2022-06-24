@@ -1,6 +1,7 @@
 {
     "api":{
         "apiNinjas":{
+            "name":"ApiNinjas",
             "key":"Pf6jhkZurZrUf0JoHtDBQA==lrOwIltQl9snQ7IY",
             "url":"https://api.api-ninjas.com/v1/",
             "types":{
