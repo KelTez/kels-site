@@ -5,7 +5,7 @@ import './../../styles/Projects.css';
 function ProjectCards(props){
     return(
         <>
-            <Card className="bg-dark text-white" >
+            <Card className="bg-dark text-white mx-auto" >
                 <Card.Img className='project-img' src={props.img} alt={props.name + ' Img'} />
                 <Card.ImgOverlay>
                     <Card.Title className='project-title'><a href={props.href} id={props.id + '-title'} target='_blank' rel='noreferrer'>{props.name}</a></Card.Title>

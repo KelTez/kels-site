@@ -16,16 +16,16 @@
         "simpleSPAForm":{
             "name":"Simple SPA Form [Ongoing]",
             "href":"./#NAN",
-            "img":"",
-            "desc":"A mock Single Page App Form, asking users to review a product. First, users sign in to the form, and answer the questions. The data is then stored on a NoSQL database. ",
-            "code":"Source code can be found <a href='https://github.com/KelTez/Simple-SPA-Form' target='_blank' rel='noreferrer'>here</a>",
+            "img":"./imgs/spa.png",
+            "desc":"A mock Single Page App Form, asking users to review a product. First, users sign in to the form, and answer the questions. The data is then stored on a NoSQL database.  ",
+            "code":"Source code can be found <a href='https://github.com/KelTez/Simple-SPA-Form' target='_blank' rel='noreferrer'>here</a>.",
             "tools":"MongoDB, Express, React, Node (MERN STACK), Azure, Okta",
             "id":"spa"
         },
         "slap":{
             "name":"SLAP.",
             "href":"https://slapadot.weebly.com",
-            "img":"./imgs/slap.jpg",
+            "img":"./imgs/slap.png",
             "desc":"My Capstone Project during university. We built a network of unobtrusive <b>IoT</b> sensor pods for detecting parking lot trends and occupancy. Learn more by reading <a href='./writing/SLAP. Report.pdf' target='_blank' rel='noreferrer'>this</a>. The project won the <b>Voelstalpine Award for Design Elegance</b>.",
             "code":"The project was split into 3 seperate 'components'; Mechanical, Hardware/Comm and WebApp. I personally worked on the hardware/communication design of this project. Find my code <a href='https://github.com/KelTez/SLAP.-FYDP' target='_blank' rel='noreferrer'>here</a>.",
             "tools":"C/C++, LoRaWAN, Python, LTSpice, Dragino LG02, RFM96 LoRa Module",
@@ -70,7 +70,7 @@
         "lostProjects":{
             "name":"The Lost Projects",
             "href":"./imgs/fool!.png",
-            "img":"./imgs/looking.jpg",
+            "img":"./imgs/looking.png",
             "desc":"<b>This section is used to talk about projects that I've lost content for.</b><br/> \"O Romeo, Romeo, wherefore art thou Romeo?\"",
             "code":"<h5>Maze Game</h5>Developed a top-down maze game with custom mazes deployed on <b>Keil RTX</b>, utilizing several peripherals to enhance UX, such as a using LEDs to monitor HP. <br/><br/><h5>Universal Calculator</h5>Developed a universal calculator which holds 50+ calculators, including finance and physics calculators.",
             "tools":"Bitmapping, Semaphores, C | Java, JavaScript",
