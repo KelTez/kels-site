@@ -5,6 +5,16 @@ can access local stuff pretty easily, just go to the public folders. So I'll lin
 
 
 WILL DO MOBILE SPECIFIC CSS ONCE SITE IS DONE!
+Some css to add is including vector images for the companies, for better zoom
+also do stuff to make the website faster. to work on that later
 
 A lot of Css issues, specifically @ different zooms. For now, work at 80% zoom and get content and general style/look
 I want. Work on overhaul of css and styling to make it look nice for all setting at a later date (once i'm done the first draft of site)
+
+
+
+ABOUT ME:
+Had swiftwater Technician Level 1 Certificate
+Published short-story
+Speak Portuguese
+Azure Certificate

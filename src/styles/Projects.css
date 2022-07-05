@@ -1,0 +1,66 @@
+.project-img{
+    height:500px;
+}
+
+#projects{
+    /*might make a animated background for this?*/
+    background: url(./../imgs/hotair.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+/*used to force the project section to have 2 cols*/
+#projects-section {
+    columns: 2 auto;
+}
+
+/*
+    ID's FOR THE PROJECT TEXTs
+*/
+#website, #website-code{
+    
+}
+
+#slap-code{
+}
+
+#pill, #pill-code{
+
+}
+
+#pill-code{
+    color:white;
+    mix-blend-mode: difference;
+}
+
+#tree80, #tree80-code, #tree80-title{
+    color:white;
+}
+
+#pid, #pid-code, #spa, #spa-code, #slap{
+    color:black;
+}
+
+#dealer, #dealer-code{
+
+}
+
+#lost-projects, #lost-projects-code{
+color: whitesmoke
+}
+
+
+/*phones and stuff*/
+@media only screen and (max-width: 45rem) {
+    #projects-section {
+        columns: 1 auto;
+    }
+}
+
+/*Big BOI monitors. Currently broken, will need to find a */
+@media only screen and (min-width: 90rem) {
+    #projects-section{
+        
+        columns: 3 auto ;
+    }
+}
+

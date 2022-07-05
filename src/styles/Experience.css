@@ -32,7 +32,7 @@
     scroll-margin-top: 3rem;
     background: url(./../imgs/hotair.jpg) no-repeat center fixed;
     background-size: cover;
-    box-shadow: 0 0 8px 8px #94d5e7 inset;
+    box-shadow: 0 0 1rem 0 #94d5e7 inset;
 }
 
 .list-group-flush{

@@ -2,8 +2,10 @@ import { React, useState, useEffect } from "react";
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import KATLogo from './../../imgs/KATLogo.svg';
 import './../../styles/Header.css'
+import { HashLink as Link } from 'react-router-hash-link';
 
 //make a KAT logo
+//issue with the onClick 
 
 //portfolio will include stuff like my short stories, and stuff like that. Passions section will 
 //probably link to that section
@@ -37,22 +39,22 @@ function Header(props){
         <>
             <Navbar variant={blackNav ? "dark" : "light"} expand='md' fixed='top' className={blackNav ? "navbar active shadow-none" : "navbar shadow-none"}>
                 <Container>
-                    <Navbar.Brand href='./home'>
+                    <Navbar.Brand href='./'>
                         <img alt="KAT" src={KATLogo} width="30" height="30"
                              className="d-inline-block align-top"/>
                         {' '}Kelvin Tezinde
                     </Navbar.Brand>
                     <Nav className='container-fluid'>
-                        <Nav.Link href='./#experience'>Work XP</Nav.Link>
-                        <Nav.Link href="./projectz">Projects</Nav.Link>
+                        <Nav.Link><Link to="/#experience">Work XP</Link></Nav.Link>
+                        <Nav.Link><Link to="projectz">Projects</Link></Nav.Link>
                         <Nav.Link href="./writing/Resume.pdf">Resume</Nav.Link>
                         <NavDropdown title="Me!" id="me-dropdown" show={show}
-                        onMouseEnter={showDropdown} onMouseLeave={hideDropdown} href="https://google.com" 
-                        onToggle={() => {window.location.href='./meeez'}} >
-                            <NavDropdown.Item href="./me#hexcode">HexC0dE</NavDropdown.Item>
-                            <NavDropdown.Item href="./me#writing">Other Writing</NavDropdown.Item>
-                            <NavDropdown.Item href="./me#dance">Dance</NavDropdown.Item>
-                            <NavDropdown.Item href="./me#misc">Misc</NavDropdown.Item>
+                        onMouseEnter={showDropdown} onMouseLeave={hideDropdown}
+                        onClick={() => {window.location.href='./meeez'}} >
+                            <NavDropdown.Item><Link to="/me#hexcode">HexC0dE</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to="/me#writing">Other Writing</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to="/me#dance">Dance</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to="/me#misc">Misc</Link></NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                 </Container>

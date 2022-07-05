@@ -1,0 +1,81 @@
+{
+    "Page":{
+        "greeting":"",
+        "thanks":""
+    },
+    "projects":{
+        "website":{
+            "name":"My Personal Site",
+            "href":"./",
+            "img":"./imgs/websiteCode.jpg",
+            "desc":"You're already here! A personal site where my work experience and knowledge is stored. Additionally, it's the location where my writing and dancing would be stored or linked to, among other things.",
+            "code":"The source code can be found <a target='_blank' rel='noreferrer'>here!</a> And yes, the background image is code from this very page ;p ",
+            "tools":"React, MD Bootstrap",
+            "id":"website"
+        },
+        "simpleSPAForm":{
+            "name":"Simple SPA Form [Ongoing]",
+            "href":"./#NAN",
+            "img":"",
+            "desc":"A mock Single Page App Form, asking users to review a product. First, users sign in to the form, and answer the questions. The data is then stored on a NoSQL database. ",
+            "code":"Source code can be found <a href='https://github.com/KelTez/Simple-SPA-Form' target='_blank' rel='noreferrer'>here</a>",
+            "tools":"MongoDB, Express, React, Node (MERN STACK), Azure, Okta",
+            "id":"spa"
+        },
+        "slap":{
+            "name":"SLAP.",
+            "href":"https://slapadot.weebly.com",
+            "img":"./imgs/slap.jpg",
+            "desc":"My Capstone Project during university. We built a network of unobtrusive <b>IoT</b> sensor pods for detecting parking lot trends and occupancy. Learn more by reading <a href='./writing/SLAP. Report.pdf' target='_blank' rel='noreferrer'>this</a>. The project won the <b>Voelstalpine Award for Design Elegance</b>.",
+            "code":"The project was split into 3 seperate 'components'; Mechanical, Hardware/Comm and WebApp. I personally worked on the hardware/communication design of this project. Find my code <a href='https://github.com/KelTez/SLAP.-FYDP' target='_blank' rel='noreferrer'>here</a>.",
+            "tools":"C/C++, LoRaWAN, Python, LTSpice, Dragino LG02, RFM96 LoRa Module",
+            "id":"slap"
+        },
+        "smartPillBottle":{
+            "name":"Smart Pill Bottle",
+            "href":"https://youtube.com/watch?v=l2iu00l8-W8",
+            "img":"./imgs/pill.jpg",
+            "desc":"A Project done for my 4th year IoT class. We built a smart pill dispenser that tracks user adherence, to ensure that one takes their pill at the appropriate time. Learn more by reading <a href='./writing/Pill Bottle Report.pdf' target='_blank' rel='noreferrer'>this</a>.",
+            "code":"Project was split into 2 parts; the hardware/mechanical aspect and the mobile app. I personally worked on the mobile app with another team member, tested with an android phone. Find the code <a href='https://github.com/KelTez/Smart-Pill-Bottle_IoTProj' target='_blank' rel='noreferrer'>here</a>.",
+            "tools":"Dart, Flutter, Bluetooth/UART, Android Studio",
+            "id":"pill"
+        },
+        "tree80":{
+            "name":"TREE-80",
+            "href":"https://github.com/KelTez/mte_380_teensy",
+            "img":"./imgs/tree80.jpg",
+            "desc":"A robotics project where we had to navigate a maze to perform a mock rescue. Rescue details include locating a person (lego), finding a candle within the maze and blowing it out (w/ a fan), finding magnets hidden in sand, then returning to our start position.",
+            "code":"My role in the project was to design the electrical system, as well as project and finance management. I designed and built the sensor I/O circuitry as well as the power distribution circuit and motor control. Read <a href='./writing/Tree80 Report.pdf' target='_blank' rel='noreferrer'>this</a> to get a better sense of what I did.",
+            "tools":"SOLIDWORKS, EagleCAD, LTSpice, Teensy 3.5",
+            "id":"tree80"
+        },
+        "ballBalancer":{
+            "name":"Ball Balancer 5000 Mark I",
+            "href":"https://www.youtube.com/watch?v=SCZRXj9Rz7o&feature=youtu.be",
+            "img":"./imgs/pid.png",
+            "desc":"A PID ball balancing project, using an Arduino as the controller, sonar sensor for distance measuring.<br/><br/> I did not write any of the balancing code for the project. Instead, I helped create and tune the PID controller/algorithm we would use for ball balancing, and MATLAB testing code (see more <a href='./writing/PID Report.pdf' target='_blank' rel='noreferrer'>here</a>, <b>all code found in Appendix</b>).",
+            "code":" As one of my major interests is <b>Writing</b>, I also created most of the animation and wrote the script in full (see a draft of the script <a href='./writing/PID Script.pdf' target='_blank' rel='noreferrer'>here</a>, animation <a href='https://www.youtube.com/watch?v=3SO69teHHqU' target='_blank' rel='noreferrer'>here</a>). ",
+            "tools":"MATLAB, Camtasia, Moovly, Animatron Studio, My Love of Writing ;P ",
+            "id":"pid"
+        },
+        "cardDealingRobot":{
+            "name":"9 + 10",
+            "href":"./writing/9 + 10.png",
+            "img":"./imgs/9 + 10.png",
+            "desc":"A blackjack dealing robot, made in my first year of university. Created using an NXT brick with both Lego and Tetrix parts, the robot would shuffle then deal cards to players, detecting said players with its various sensors.",
+            "code":"See the code <a href='https://github.com/KelTez/Autonomous-Card-Dealing-Sysyem' target='_blank' rel='noreferrer'>here</a>.",
+            "tools":"C, NXT",
+            "id":"dealer"
+        },
+        "lostProjects":{
+            "name":"The Lost Projects",
+            "href":"./imgs/fool!.png",
+            "img":"./imgs/looking.jpg",
+            "desc":"<b>This section is used to talk about projects that I've lost content for.</b><br/> \"O Romeo, Romeo, wherefore art thou Romeo?\"",
+            "code":"<h5>Maze Game</h5>Developed a top-down maze game with custom mazes deployed on <b>Keil RTX</b>, utilizing several peripherals to enhance UX, such as a using LEDs to monitor HP. <br/><br/><h5>Universal Calculator</h5>Developed a universal calculator which holds 50+ calculators, including finance and physics calculators.",
+            "tools":"Bitmapping, Semaphores, C | Java, JavaScript",
+            "id":"lost-projects"
+        }
+    }
+    
+}

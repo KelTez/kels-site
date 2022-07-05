@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from "react";
 import { MDBFooter, MDBContainer, MDBIcon } from 'mdb-react-ui-kit';
 import global from './global-text.json';
+import './../../styles/Footer.css';
 const axios = require('axios');
 
 function Footer(props){
@@ -39,8 +40,8 @@ function Footer(props){
     return (
         <>
             <MDBFooter className='text-center' color='white' bgColor='dark'>
-                <MDBContainer className='p-4'>
-                    <section className='mb-4'>
+                <MDBContainer className='px-4 pt-4 pb-2 footer'>
+                    <section className='mb-2'>
                         <a className='btn btn-outline-light btn-floating m-1' 
                         href='#!' role='button' title="Email Me!">
                             <MDBIcon icon='envelope' />
@@ -71,7 +72,7 @@ function Footer(props){
                             <MDBIcon icon='book-open' />
                         </a>
                     </section>
-                    <section className='mb-4'>
+                    <section>
                         <p>
                             Hey it's Kelvin here! Not much left of note here, sorry {':('}
                         </p>
@@ -79,17 +80,20 @@ function Footer(props){
                             Here are some {props.api} to ease the loneliness! 
                         </p>
                         <button type='button' onClick={getData}
-                        className='btn btn-outline-light btn-rounded' >
+                        className='btn btn-outline-light btn-rounded api-btn' >
                             Click Me!
                         </button>
+                        
                         <p id={props.api}>{data} - {api.name}</p>
+                        
                     </section>
                 </MDBContainer>
-
-                <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-                    Kelvin Andre Tezinde ©{year}.
+                <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+                    Kelvin Andre Tezinde ©{year}
                     <br/>
-                    Built using React, styled with Material Design Bootstrap. Hot air background from pngtree.com
+                    Built using React, styled with Material Design Bootstrap. No template used.
+                    <br/>
+                    <b>Relevant credits:</b> Hot Air Balloon background from pngtree.com
                     <br/>
                     View the source code <a>here</a>.
                 </div>

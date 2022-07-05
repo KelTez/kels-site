@@ -12,7 +12,7 @@
     "experienceSection":{
         "headings":{
             "title":"Work XP",
-            "greeting":"Hello again! I'm Kelvin, and I'm a mechatronics grad from the university of waterloo. checkout my experience below!"
+            "greeting":"Hello again! I'm Kelvin, and I'm a 2020 Mechatronics grad from the University Of Waterloo. Checkout my work experience below!"
         },
         "jobDeets":{
             "sapient":{
@@ -57,7 +57,7 @@
                 "jobDesc1":"Designed the prototype for the proposed <b>drivetrain</b> that houses both old and new Workcars",
                 "jobDesc2":"Tested the braking system of several rail vehicles, testing at different speeds and brake pipes",
                 "jobDesc3":"Disassembled and tested the electronics of Workcars, creating new <b>Draftsight</b> schematics",
-                "tools":"Draftsight, SOLDIWORKS"
+                "tools":"Draftsight, AutoCAD, EagleCAD, SOLIDWORKS"
             },
             "waterloop":{
                 "jobSite":"https://teamwaterloop.ca/",
