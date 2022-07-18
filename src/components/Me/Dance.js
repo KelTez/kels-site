@@ -1,1 +1,0 @@
-//props component, easy to add multiple dance videos
